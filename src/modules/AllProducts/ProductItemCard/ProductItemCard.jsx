@@ -25,7 +25,7 @@ const ProductItemCard = ({ product }) => {
           <span className={styles.discountBadge}>-{discount}%</span>
         )}
         <img
-          src={`http://localhost:3333${product.image}`}
+          src={`${import.meta.env.VITE_API_URL}${product.image}`}
           alt={product.title}
           className={styles.productImage}
         />

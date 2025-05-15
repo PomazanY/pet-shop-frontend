@@ -18,7 +18,7 @@ const CartItem = ({
     return (
         <>
             <div className={styles.cartItem}>
-                <img src={`http://localhost:3333${image}`} alt={title} className={styles.image} />
+                <img src={`${import.meta.env.VITE_API_URL}${image}`} alt={title} className={styles.image} />
 
                 <div className={styles.content}>
                     <div className={styles.top}>
