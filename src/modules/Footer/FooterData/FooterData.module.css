@@ -1,0 +1,29 @@
+.box {
+  background-color: #f3f5f7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.label {
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-bottom: 10px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+@media (max-width: 767px) {
+    .value {
+        font-size: 20px;
+    }
+  
+}

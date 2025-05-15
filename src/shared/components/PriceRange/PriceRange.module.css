@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--main-text-color);
+}
+
+.input {
+    margin-top: 4px;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: white;
+    width: 100px;
+}
+
+.input::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126%;
+    color: #8b8b8b;
+}

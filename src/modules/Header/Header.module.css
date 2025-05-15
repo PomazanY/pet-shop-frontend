@@ -1,0 +1,30 @@
+.header {
+    padding: 25px 0 25px 0;
+   
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+  .burger {
+    display: block;
+  }
+
+  .auth {
+    display: none;
+  }
+}

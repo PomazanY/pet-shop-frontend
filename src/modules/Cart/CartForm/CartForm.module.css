@@ -1,0 +1,182 @@
+.container {
+    border-radius: 12px;
+    padding: 32px;
+    background: #f1f3f4;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #282828;
+    margin-bottom: 24px;
+}
+
+.totalContainer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.items {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    color: #8b8b8b;
+    margin-bottom: 24px;
+}
+
+.totalPrice {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #282828;
+}
+
+
+.textField {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.blackInput {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px 32px;
+    width: 516px;
+    height: 58px;
+    outline: none;
+    color: #282828;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    color: #8b8b8b;
+}
+
+.btn {
+    padding: 16px 32px;
+    background-color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 16px 32px;
+    width: 516px;
+    height: 58px;
+}
+
+.btn:hover {
+    background-color: var(--hover-background-color);
+    color: white;
+}
+
+.modalTitle {
+    padding-bottom: 24px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    color: #fff;
+}
+
+.modalText {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110%;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+@media (max-width: 1000px) {
+   .title {
+    font-weight: 600;
+        
+  }
+.items {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.totalPrice {
+    font-weight: 600;
+    font-size: 50px;
+}
+.modalTitle {
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 35px;
+ 
+}
+
+.modalText {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+   .title {
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+.items {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.totalPrice {
+    font-weight: 600;
+    font-size: 40px;
+}
+.blackInput {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px;
+    width: 330px;
+    height: 50px;
+    outline: none;
+    color: #282828;
+    font-size: 20px;
+}
+
+.btn {
+   
+    background-color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+   
+    padding: 16px;
+    width: 330px;
+    height: 50px;
+}
+
+.modalTitle {
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 35px;
+ 
+}
+
+.modalText {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+}

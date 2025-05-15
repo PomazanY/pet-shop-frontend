@@ -1,0 +1,69 @@
+.menuList {
+  display: flex;
+  gap: 30px;
+  
+}
+
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--main-text-color);
+}
+
+.link:hover {
+  color: var(--main-background-color);
+}
+
+.active {
+  color: var(--main-background-color);
+  font-weight: 700;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
+}
+
+.closeIcon {
+  width: 28px;
+  height: 28px;
+  color: #333;
+}
+
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+  }
+
+  .menu.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    padding: 60px 20px 20px;
+    z-index: 1000;
+  }
+
+   .menuList {
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 20px;
+  }
+
+  .closeBtn {
+    display: block;
+  }
+}
+

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-star;
+  flex-wrap: wrap;
+}
+
+.emptyMessage {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.continueBtn {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  
+
+}
